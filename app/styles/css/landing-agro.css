@@ -1,0 +1,118 @@
+.underline-green,
+.navbar.underline-green {
+  border-bottom: 8px solid #7EB51E;
+}
+.underline-left-green {
+  border-left: 8px solid #7EB51E;
+}
+
+.bg-green {
+    background: #7EB51E;
+}
+
+.bg-img-tablet-map {
+    height: 480px;
+    background: url("/images/agro/tablet-map.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.bg-img-grazing {
+    height: 395px;
+    background: url("/images/agro/bg_pasto.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.bg-img-silobolsas {
+    height: 395px;
+    background: url("/images/agro/bg_silos.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.bg-img-field {
+    height: 533px;
+    background: url("/images/agro/bg_campo.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.img-dashboard {
+    position: absolute;
+    top: -25px;
+	left: 0;
+}
+
+.list-style {
+    margin-left: 12px;
+    list-style: inherit;
+}
+
+.list-style.number {
+    list-style-type: decimal;
+}
+
+.text-normal{
+    color: #333;
+}
+.text-green{
+    color: #7EB51E;
+}
+
+.label-lg {
+    font-size: 24px;
+    padding: 10px;
+}
+
+.ico-agro {
+    border: 1px solid #434142
+}
+.ico-agro img {
+    margin-top: -28px;
+}
+.ico-agro .ico-label {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    color: #434142;
+    font-family: sans-serif;
+
+}
+
+@media (max-width: 767px) {
+    .hand {
+        position: absolute;
+        bottom: 0;
+        padding: 0 !important
+    }
+    .col-fit {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .video-wrapper {
+        width: 100% !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
+
+.col-v-center {
+    float: none !important;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: -4px;
+
+}
+.v-center-flexbox {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.relative {
+    position: relative;
+}
