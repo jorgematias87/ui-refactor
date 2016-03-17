@@ -171,12 +171,12 @@ p {
   position: relative;
   vertical-align: middle;
 }
-.header-transparent .navbar-mod {
+.header-transparent.navbar-mod {
   position: absolute;
   background: transparent !important;
 }
-.header-transparent .navbar-mod.underline-blue,
-.header-transparent .navbar-mod.underline-green {
+.header-transparent.navbar-mod.underline-blue,
+.header-transparent.navbar-mod.underline-green {
   border-bottom: 0;
 }
 .navbar.navbar-mod {

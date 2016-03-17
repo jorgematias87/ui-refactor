@@ -1,0 +1,671 @@
+{
+  "lang": "es",
+  "langVal": "es-es",
+  "contactus": {
+    "title": "Contact Us",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send",
+    "success": "We have received your contact information, we will contact you shortly. Thanks",
+    "error": "Sorry, we couln't receive your contact information. Please, try again"
+  },
+  "landing": {
+    "contactus": "Contact Us",
+    "menu": {
+      "faq": "faq",
+      "developers": "Developers",
+      "pricing": "Pricing",
+      "blog": "Blog"
+    },
+    "titulo": "Sense the power of data visualization. Tune your key decisions",
+    "subtitulo": "Real time metrics for smart businesses, smart cities and smart things",
+    "empezar":"Start now",
+    "ingresar": "Sign In",
+    "o": "or...",
+    "probar": [
+      "Try for free",
+      "(30 days)"
+    ],
+    "username": "e-mail",
+    "password": "Password",
+    "rePassword": "Retype the password",
+    "rememberMe": "Remember me",
+    "forgotPass": "Forgot password?",
+    "logBack": "Back",
+    "logForgotResponse": "An email was sent to ",
+    "logForgotButton": "Submit",
+    "resetPass": "Reset your password",
+    "mainRegisterError":"The user you are trying to register already exists!",
+    "mainRegisterSuccess": "An email has been sent to your account. Check it out and activate your account!",
+    "caracteristicas": {
+      "titulo": "In a connected world, data is king. Those who can process and measure it faster and efficiently are the ones who can make a change.",
+      "subtitulo": "EVERYTHING that surrounds us can be measured in real time. Activities from the online and the offline worlds. From the temperature of your own greenhouse or the ambient of a silo, to the vehicle traffic in a city or the behaviour of an eCommerce platform or a Data Center. Unleash your instinct of measurement and Metzoo will do the rest.",
+      "items": [
+        {
+          "imagen": "configurar",
+          "titulo": "Collect data",
+          "texto": "Your information in one place. Send data quickly through our public API using our SDK or installing our agents in your platform."
+        },
+        {
+          "imagen": "medir",
+          "titulo": "Transform data into metrics",
+          "texto": "Your business cannot wait. We convert your business hard data into simple and powerful metrics to make real-time decisions."
+        },
+        {
+          "imagen": "visualizar",
+          "titulo": "Generate graphics",
+          "texto": "All your metrics in one [desk, interface, place]. Simple, intuitive and adaptable to any screen. Visualize in modern graphics, flexible to watch and modify anything you need in real time."
+        },
+        {
+          "imagen": "decidir",
+          "titulo": "Generate alerts",
+          "texto": "All the “IF” you may need, whenever and wherever you want. Configure alerts to receive them in you email or in the new collaborative tools (e.g. Pager Duty)"
+        },
+        {
+          "imagen": "monitorear",
+          "titulo": "Pay for what you use",
+          "texto": "Choose the option that best adapts to your needs considering the data flow and the frequency of the capture you require."
+        }
+      ]
+    }
+  },
+  "signin": {
+    "titulo": "Welcome",
+    "forgotClick": "Click here" 
+  },
+  "signup": {
+    "titulo": "Start now!",
+    "textos": [
+      "Try for",
+      "30 free days",
+      "to know how much is for you"
+    ]
+  },
+  "faq":{
+    "titulo": "FAQ",
+    "subtitulo": "(Frequently answered questions)",
+    "items": [
+      [
+        {
+          "titulo": "What is Metzoo?",
+          "textos": [
+            "It is a complete cloud solution for real-time monitoring of all variables directly impacting in any activity: from servers to the city traffic. This tool offers everything you need to visualize, analyze and generate alerts about the metrics you're most interested in for a rapid action, in a very simple and visual way. With beautiful graphics, updated in real time, you will make better decisions.", 
+            "Metzoo is developed by systems specialists so it combines the agility, power and scalability offered by cloud technology with the power of business data analysis tools.  Our proposal is that you can measure, measure and measure. And to keep this task simple and practical, so you can do it in your office, at home or wherever you want."
+          ],
+          "imagen": "faq_ico_01"
+        },
+        {
+          "titulo": "What can I measure?",
+          "textos": [
+            "All online or offline events have great potential to be measured.  From a marketing campaign, a small or big scale productive process, to the city traffic or the behavior of users that buy online using an ecommerce platform. Find more information about applications in our blog (link to the blog)"
+          ],
+          "imagen": ""
+        },
+        {
+          "titulo": "How do I send data to Metzoo?",
+          "textos": [
+            "When you activate your service -free or Premium-, you download the agent compatible with the server where the data you want to measure with our tool is hosted. It is very simple, they´re one-click install applications. Once installed, you activate it and you're ready to start sending your information!", 
+            "You can integrate your data with Metzoo in 3 different ways: 1) Public API (watch here how to integrate it with you site) 2) Arduino-like sensors, y 3) SDKs (NodeJS, golang, Ruby)."
+          ],
+          "imagen": ""
+        },
+        {
+          "titulo": "What is a data flow?",
+          "textos": [
+            "A data flow is a metric sent from a specific source in a particular frequency. For example, if you send us a front-end server´s CPU usage every 10 seconds, that´s a data flow. We only charge for the data written in the disk."
+          ],
+          "imagen": ""
+        },
+        {
+          "titulo": "What if I'm not sending the data to the frequencies shown?",
+          "textos": [
+            "We calculate the cost based on the frequency in which you have configured the data flow. For example, if you are sending data flows in 15 seconds resolutions, we calculate the cost as the average of the nearest two price points. For resolutions of 5 and higher, the price is the same."
+          ],
+          "imagen": ""
+        },
+        {
+          "titulo": "Do you offer discounts?",
+          "textos": [
+            "Yes! We have 3 different ways: 1) for data volume (see our plans here), 2) for entity type: if you are and NGO or an education institution, and 3) paying the plan of your choice in advance. Check our list of plans and you will see!"
+          ],
+          "imagen": ""
+        },
+        {
+          "titulo": "What if I send lots of data?",
+          "textos": [
+            "There is no problem, since there is no limit on the data flow quantity you can send us. If you want to make sure, you can send us an email to sales@metzoo.com explaining your particular case and we'll be glad to send you the plan that best fits your demand."
+          ],
+          "imagen": ""
+        },
+        {
+          "titulo": "How long do you keep my information?",
+          "textos": [
+            "For one year. It is a reasonable period of time to keep source data. It makes no sense to keep data during longer periods of time in the native resolution. They´re too many points that may even complicate the current visualization."
+          ],
+          "imagen": ""
+        }
+      ],
+      [
+        {
+          "titulo": "Do you have a free version?",
+          "textos": [
+            "Yes! When you register, you can access a free 30-day trial version with no service restrictions. In this period we will not require your credit card information. Just log in and start monitoring! Once the period is finished, you can choose the free plan for Developers (with some functionalities limitations) or an unlimited production plan. Enter here to know the scope and characteristics of our plans."
+          ],
+          "imagen": ""
+        },
+        {
+          "titulo": "Is it compatible with Windows, Mac and Linux?",
+          "textos": [
+            "Yes!"
+          ],
+          "imagen": ""
+        },
+        {
+          "titulo": "Can I personalize the desktop and the templates?",
+          "textos": [
+            "Yes. You can easily adapt the visualization of your desktop or graphics according to your requirements and later use them again among your different sources of data, changing them in real time. You can select a group of predefined templates and combine different variables of blocks at your convenience. Personalize ALL the elements in your dashboards. Use our couch mode for the TVs you have in your office!"
+          ],
+          "imagen": ""
+        },
+        {
+          "titulo": "What is the Service Aggregation?",
+          "textos": [
+            "The flexibility of an aggregation service allows to easily combine different measurements sent to Metzoo in a new, unique and complete measurement. Ideal for ephemeral environments, our aggregation level will allow you to easily manage ongoing metrics in order to scale in data volumes."
+          ],
+          "imagen": "faq_ico_02"
+        },
+        {
+          "titulo": "What is the purpose of establishing correlations?",
+          "textos": [
+            "Setting correlations among different data is a very powerful tool to face crisis when systems are on fire! That is why with Mezoo you can group a set of metrics and save them in a graphic in order to be well prepared to face those “fires” and to establish new levels of dependency among your metrics."
+          ],
+          "imagen": ""
+        },
+        {
+          "titulo": "Is it multiplatform?",
+          "textos": [
+            "Yes. No matter the language you're working, Metzoo easily integrates with Ruby, Java, Python, .Net and Node JS among others. Discover how easy Metzoo integration can be with just a few lines of code."
+          ],
+          "imagen": ""
+        },
+        {
+          "titulo": "Does it have a public API so I can integrate my systems?",
+          "textos": [
+            "Yes. That is why we base our system in an API so you don't get locked in Metzoo and to let you integrate your business data easily. You are the owner of your data, we only help you transform your data into valuable information so you can make faster and more efficient business decisions.  With our API, you can focus on your business and we will be glad that you do."
+          ],
+          "imagen": ""
+        },
+        {
+          "titulo": "I am an SME, is Metzoo for me?",
+          "textos": [
+            "Yes. All businesses have data to measure. All companies will grow if they can have precise statistics of the variables that run their business. That is why Metzoo helps SMEs and big companies equally, following their business scalability."
+          ],
+          "imagen": "faq_ico_03"
+        }
+      ]
+    ]
+  },
+  "desarrolladores":{
+    "titulo":"Developers",
+    "texto":"To integrate our public API, we give you requirements and responses examples for every request. If you have more questions, write them to",
+    "tabs": [
+      {
+        "titulo": "Register an agent",
+        "active": "active",
+        "items": [
+          {
+            "titulo": "POST agent",
+            "texto": "curl -i \\<br>-H \"Content-Type: application/json\" \\<br>-H \"User-Agent: Metzoo-Curl-Client\" \\<br>-d '{\"host_name\": \"my-curl-client\", \"customer_key\": \"my-customer-key\"}' \\<br>-X POST http://api.metzoo.com/agents"
+          },
+          {
+            "titulo": "Response example:",
+            "texto": "Success: <br>Status code: 201 <br>Body: {\"agentKey\": \"yourAgentKey\", \"status\": 201} <br><br>An error happend, status code: <br>500(validation errors) <br>404(invalid customer key) <br>503(db errors) <br>-Empty body"
+          }
+        ]
+      },
+      {
+        "titulo": "Register a metric",
+        "active": "",
+        "items": [
+          {
+            "titulo": "POST metric",
+            "texto": "curl -i \\<br>-H \"Content-Type: application/json\" \\<br>-H \"User-Agent: Metzoo-Curl-Client\" \\<br>-H \"Agent-Key: my-agent-key\" \\<br>-d '[\"memory.Free\", \"memory.Used\", \"memory.Total\"]' \\<br>-X POST https://api.metzoo.com/metrics"
+          },
+          {
+            "titulo": "Response example:",
+            "texto": "Success: <br>Status code: 201 <br><br>Errors: <br>400: invalid data. <br>403: invalid agent key. <br>503: db errors (should retry)"
+          }
+        ]
+      },
+      {
+        "titulo": "POST data",
+        "active": "",
+        "items": [
+          {
+            "titulo": "POST metric/data",
+            "texto": "curl -i \\<br>-H \"Content-Type: application/json\" \\<br>-H \"User-Agent: Metzoo-Curl-Client\" \\<br>-H \"Agent-Key: my-agent-key\" \\<br>-d '{\"t\":1414413302, \"memory.Free\":1.94097152e+08, \"memory.Total\":5.1422003e+08, \"memory.Used\":3.2012288e+08}' \\<br>-X POST https://api.metzoo.com/metrics/data"
+          },
+          {
+            "titulo": "Response example",
+            "texto": "Success: <br>Status code: 201: <br><br>Errors: <br>400: error parsing values. <br>403: invalid agent key. <br>503: db error (should retry)"
+          }
+        ]
+      },
+      {
+        "titulo": "Agent update",
+        "active": "",
+        "items": [
+          {
+            "titulo": "Get Request",
+            "texto": "curl -i \\<br>-H \"Content-Type: application/json\" \\<br>-H \"User-Agent: Metzoo-Curl-Client\" \\<br>-H \"Agent-Key: my-agent-key\" \\<br>https://api.metzoo.com/agents"
+          },
+          {
+            "titulo": "Response example:",
+            "ejemplos": [
+              {
+                "titulo": "If agent had no change:",
+                "texto": "{\"key\": \"agentUnchanged\", \"body\": \"\"}"
+              },
+              {
+                "titulo": "If agent has been change:",
+                "texto": "{\"key\":\"agentUpdate\", \"body\": {\"customer_id\": {\"$oid\": \"53d6a5d7f93165513d000004\"}, \"deleted\": false, \"deleted_on\": {\"$date\":\"0001-01-03T00:00:00.000Z\"}, \"enabled\": true, \"endpoints\": [\"https://api.metzoo.com\"], \"host_name\": \"my-host-name\", \"intencional_disabled\": false, \"key\": \"my-agent-key\", \"polling_interval\": 60, \"type\": \"linux\", \"update_request\": true}}"
+              },
+              {
+                "titulo": "Note: \"key\" is used to say if an accion should be done or if message should be ignored."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+
+  },
+  "precios": {
+    "titulo": "Pricing",
+    "subtitulo": "You make your own plan. There are two variables that define the price: quantity of data flows sent for measuring (metrics) and frequency of transmissions/submissions (envíos). Pay Per Use (PPU) system. ",
+    "textos": [
+      "The more metrics you send in lower frequency periods of time, the lower the price will be. For example: if you send 100 metrics every 5 minutes, the price will be lower than if you send them every 30 seconds. Enter here to know the values grid and choose the one that best fits your business.",
+      [
+        "Plans available for big data volumes. Send us an email with your requirement to",
+        "and we will work out the right plan for you."
+      ]
+    ], 
+    "tabla":{
+      "titulos": [
+        "METRIC VALUE PER MONTH",
+        [
+          "RESOLUTION ",
+          "(Seconds between send)"
+        ]
+      ],
+      "textos": [
+        [
+          "$0.29",
+          "5 seconds"
+                ],
+                [
+                  "$0.24",
+                  "10 seconds"
+                ],
+                [
+                  "$0.19",
+                  "15 seconds"
+                ],
+                [
+                  "$0.14",
+                  "30 seconds"
+                ],
+                [
+                  "$0.09",
+                  "60 seconds"
+                ],
+                [
+                  "Try it free for 30 days",
+                  "so you can know your real cost."
+                ]
+      ]
+    }
+  },
+  "maintenance": {
+    "title": "Maintenance",
+    "text": "We are currently updating the site. Please check back shortly"
+  },
+  "dashboard":{
+    "deleteDashboardGroup": "Do you want to delete {0} group?",
+    "deleteDashboard": "Do you want to delete {0} dashboard?",
+    "loading": "Loading",
+    "static": "Static",
+    "couch": "Couch",
+    "exitCouch": "Exit couch mode",
+    "lastUpdate": "Last update",
+    "searchGraph": "Search for a graph",
+    "hostsFilter": "Source Filter",
+    "searchHost": "Search for a source",
+    "searchWidget": "Search for widget",
+    "search": "Search",
+    "monitoring": "monitoring",
+    "settings": "Settings",
+    "editProfile": "Edit profile",
+    "logout": "Logout",
+    "alertLogout":"Are you sure you want to logout?",
+    "createNewWidget": "Create widget",
+    "chartSize": "Widget size",
+    "group": "Group",
+    "rename": "Rename",
+    "name": "Name",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "add": "Add",
+    "cancel": "Cancel",
+    "view": "View",
+    "options":"Options",
+    "select":"Select",
+    "dashboardName": "Dashboard name",
+    "feedback": "Give us feedback",
+    "color": "Color",
+    "addNewGroup": "Add new group",
+    "saveAsPNG": "Save as PNG",
+    "timeRange": "Time range",
+    "olderGraphData":"The graph data is older than 2 hours.",
+    "widgetsNotFound": "We didn't find any widgets.",
+    "location": "Geolocation",
+    "renderIn": "Render in",
+    "tab": "Tab",
+    "graphName": "Graph Name",
+    "servers": "Servers",
+    "graphConfig": "Graph Configuration",
+    "graphType": "Graph type",
+    "graphScale": "Graph scale",
+    "metric": "Metric",
+    "source": "Source",
+    "tip": "Tip",
+    "tipItself": "You can disable series clicking on them. Disabled series will not be created.",
+    "close": "Close",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send",
+    "minThreshold":"Threshold",
+    "customTimeRange":"Custom",
+    "unit": "Unit"
+  },
+  "settings":{
+    "goToDashboard": "Return to dashboard",
+    "settings": "Settings",
+    "dashboard": "Dashboard",
+    "language": "App language",
+    "timezone": "App timezone",
+    "profileSettings": "Profile Settings",
+    "notificationsSettings": "Notifications Settings",
+    "awsSettings": "AWS Settings",
+    "awsInstall": "AWS Install",
+    "agentsSettings": "Agents Settings",
+    "agentsList": "Agents List",
+    "agentInstall": "Agents install",
+    "agentNew": "Create Agent",
+    "metricsSettings": "Defined Alerts",
+    "filterMetrics":"Filter metrics",
+    "paymentSettings": "Payment Settings",
+    "snmpSettings": "SNMP Settings",
+    "snmpInstall": "SNMP Install",
+    "snmpCollectors": "SNMP Collectors",
+    "snmpCollectorName": "Collector Name:",
+    "snmpPollingInterval": "Polling interval:",
+    "name": "Name",
+    "email": "Email",
+    "organization": "Organization",
+    "password": "Password",
+    "passwordRe": "Repeat Password",
+    "passwordMatch": "Passwords don't match",
+    "fieldRequired": "This field is required",
+    "validEmail": "You must enter a valid email",
+    "customerKey": "Customer Key",
+    "save": "Save",
+    "add": "Add",
+    "cancel": "Cancel",
+    "paypalEnabled": "Enable PayPal",
+    "mPEnabled": "Enable Mercado Pago",
+    "awsEnabled": "Enable AWS",
+    "awsKeys": "AWS Keys",
+    "accessKey": "Access Key ID",
+    "secretKey": "Secret Access Key",
+    "awsRegions": "AWS Regions",
+    "awsServices": "AWS Services",
+    "addAwsSetting": "Add new AWS Setting",
+    "awsWidgetsCreation": "AWS widgets creation",
+    "awsAutomatically": "Create AWS widgets automatically",
+    "awsRefresh": "Refresh AWS metrics",
+    "awsDelete": "Delete AWS widgets",
+    "agentsNotFound": "No agents found.",
+    "snmpNotFound": "No SNMP found.",
+    "metricsNotFound": "No metrics with set alert found.",
+    "agentName": "Agent",
+    "agentKey": "Key: ",
+    "agentStatus": "Status",
+    "agentInterval": "Update Interval (in sec.)",
+    "deleteAgent":"Are you sure you want to delete this agent?",
+    "deleteAwsSetting":"Are you sure you want to delete this AWS Setting?",
+    "agentEnable": "Active",
+    "agentDisabled": "Disabled",
+    "agentUpdate": "Update",
+    "agentDelete": "Delete",
+
+    "agents": {
+      "installation":{
+        "title": "Installation",
+        "direction": {
+          "previous": "Previous",
+          "next": "Next"
+
+        },
+        "requirement": [
+          "Pre requisites",
+          "During the agent configuration, we will need to add our customer key. You can get this key from metzoo settings page:",
+          "Settings",
+          "Profile settings",
+          "Copy the Customer Key and keep it for later usage."
+          ],
+          "tabs":{
+            "rpm":{
+              "title": ".rpm",
+              "steps":[
+                [
+                  "We will install the metzoo agent on the host we want to monitor:",
+                  "root@localhost ~# rpm -ivh http://repo.metzoo.com/downloads/metzoo-linux-agent.x86_64.rpm\nRetrieving http://repo.metzoo.com/downloads/metzoo-linux-agent.x86_64.rpm\nPreparing... ########################################### [100%]\nmetzoo-linux-agent ########################################### [100%]"
+                ],
+                [
+                  "Once installed, we will need to add our customer key to the agent configuration and the name we want to use to identify our host on the metzoo page",
+                  "Edit the following configuration file:",
+                  "root@localhost ~# vi /etc/metzoo/config.yaml",
+                  "Add the Customer Key we've copied on the customer.key field",
+                  "customer.key: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX",
+                  "Add the agent.name we will use to identify the host",
+                  "agent.name: test.domain.com"
+                ],
+                [
+                  "This step is optional, but we suggest configuring the agent to start on it's on when the host is booted up:",
+                  "root@localhost ~# chkconfig --add metzoo-agent"
+                ],
+                [
+                  "Proceed to start the metzoo-agent",
+                  "root@localhost ~# service metzoo-agent start",
+                  "Within the next couple of minutes you should see your metrics on the metzoo platform."
+                            ]
+              ]
+            },
+            "deb":{
+              "title": ".deb",
+              "steps":[
+                [
+                  "We will install the metzoo agent on the host we want to monitor:",
+                  "root@localhost:~# wget http://repo.metzoo.com/downloads/metzoo-linux-agent_amd64.deb\nroot@localhost:~# dpkg -i metzoo-linux-agent_amd64.deb"
+                ],
+                [
+                  "Once installed, we will need to add our customer key to the agent configuration and the name we want to use to identify our host on the metzoo page",
+                  "Edit the following configuration file:",
+                  "root@localhost ~# vi /etc/metzoo/config.yaml",
+                  "Add the Customer Key we've copied on the customer.key field",
+                  "customer.key: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX",
+                  "Add the agent.name we will use to identify the host",
+                  "agent.name: test.domain.com"
+                ],
+                [
+                  "Proceed to start the metzoo-agent",
+                  "root@localhost:~# systemctl start metzoo-agent"
+                ],
+                [
+                  "Lets verify that the agent is running.",
+                  "root@localhost:~# systemctl status metzoo-agent\nmetzoo-agent.service - Metzoo Linux Agent service\nLoaded: loaded (/etc/systemd/system/metzoo-agent.service; disabled)\nActive: active (running) since Fri 2015-05-22 15:12:04 UTC; 49s ago\nMain PID: 2095 (metzoo-linux-ag)\nCGroup: /system.slice/metzoo-agent.service\n└─2095 /opt/metzoo/metzoo-linux-agent -configFile=/etc/metzoo/config.yaml 1> 2>&1 &",
+                  "Within the next couple of minutes you should see your metrics on the metzoo platform."
+                            ]
+              ]
+            },
+            "binary":{
+              "title": "Binary",
+              "steps":[
+                [
+                  "We will install the metzoo agent on the host we want to monitor:",
+                  "root@localhost:~# wget http://repo.metzoo.com/downloads/metzoo-install.sh --quiet -O - | bash\nInstalling metzoo linux agent.\nPlease wait while the installation finishes\n\nInstallation has completed.\nPlease remember to configure your settings on /etc/metzoo/config.yaml\n\nTo start the agent, execute the following command:\n/opt/metzoo/metzoo-linux-agent -configFile=/etc/metzoo/config.yaml"
+                ],
+                [
+                  "Once installed, we will need to add our customer key to the agent configuration and the name we want to use to identify our host on the metzoo page",
+                  "Edit the following configuration file:",
+                  "root@localhost ~# vi /etc/metzoo/config.yaml",
+                  "Add the Customer Key we've copied on the customer.key field",
+                  "customer.key: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX",
+                  "Add the agent.name we will use to identify the host",
+                  "agent.name: test.domain.com"
+                ],
+                [
+                  "Proceed to start the metzoo-agent",
+                  "root@localhost:~# /opt/metzoo/metzoo-linux-agent -configFile=/etc/metzoo/config.yaml\nThis agent is not registered yet, registering...\nAgent updated, config saved.",
+                  "Within the next couple of minutes you should see your metrics on the metzoo platform."
+                            ]
+              ]
+            }
+          }
+      }	
+    },
+
+    "metricName":"Metric name",
+    "metricStatusMin":"Min",
+    "metricStatusMax":"Max",
+    "metricStatusNotificationMail":"Mail notification",
+    "paymentStoredCreditsCards": "Stored Credits Cards",
+    "paymentManage": "Manage your credit cards and payment settings",
+    "paymentNoCCFound": "No credit cards found.",
+    "paymentCCType": "Type",
+    "paymentCCName": "Name on Card",
+    "paymentCCNumber": "Card",
+    "paymentCCExpires": "Expires",
+    "paymentCCPrimary": "Primary",
+    "paymentCCActions": "Actions",
+    "paymentAdd": "Add a Credit Card",
+    "paymentAddress": "Billing Address",
+    "paymentCity": "Billing City",
+    "paymentCountry": "Billing Country",
+    "paymentPC": "Billing Postal Code",
+    "paymentFirst": "Name on card (First)",
+    "paymentLast": "Name on card (Last)",
+    "paymentNumber": "Credit Card Number",
+    "paymentMonth": "Expiration Month",
+    "paymentYear": "Expiration Year",
+    "paymentCVV": "Security code",
+    "paymentPlan": "Select your subscription",
+    "paymentCCActionsSet": "Set as primary credit card",
+    "paymentCCActionsDel": "Delete credit card",
+    "paymentCCActionsEd": "Edit credit card",
+    "fieldNumeric": "This field must be a numeric value",
+    "fieldMin16": "Please enter your 16 digit credit card numbers",
+    "fieldMax16": "There are more than 16 digits",
+    "fieldMin3": "Please enter your 3 digit credit card security code",
+    "fieldMax3": "There are more than 3 digits",
+    "fieldMin15": "Please enter your 15 digit credit card numbers",
+    "fieldMax15": "There are more than 15 digits",
+    "fieldMin4": "Please enter your 4 digit credit card security code",
+    "fieldMax4": "There are more than 4 digits",
+    "fieldMin2": "Expiration month must have 2 digits",
+    "fieldMax2": "There are more than 2 digits",
+    "fieldMin4D": "Expiration year must have 4 digits",
+    "fieldMonth": "El rango de meses tiene que ser de 01 a 12",
+    "usersName": "Name",
+    "usersEmail": "Email",
+    "usersType": "User type",
+    "usersActive": "Active",
+    "usersActions": "Actions",
+    "usersTitle": "Users administration",
+    "usersNotFound": "Users not found",
+    "CCNumberError": "The Credit Card number is invalid",
+    "CCProcError": "Credit Card service error",
+    "CCExpError": "If date you set is correct, your credit card has expired",
+    "costManagement": "Cost Management",
+    "subsTitle": "Mercado pago subscription information",
+    "subsEmail": "Subscription email",
+    "subsLast": "Last subscription payment",
+    "subsFreq": "Subscription frequency",
+    "subsPer": "per",
+    "userActionsEd": "Edit user",
+    "userActionsDel": "Delete user",
+    "addNewUser":"Add new user",
+    "costManagementObj": {
+      "monthlySpend": "Monthly Spend",
+      "subDescrp": "Your monthly balance appears below",
+      "dateDecrp": "Current month-to-date balance for",
+      "byAgent": "By Agent",
+      "alerts": "Alerts & Notifications",
+      "noNotifications": "No notifications",
+      "agent": "Agent Name",
+      "count": "Data Points",
+      "amount": "Amount",
+      "total": "Total",
+      "noPreviousMonth":"There isn't consumption data for the previous month for your account.",
+      "noDataUsage":"No usage data found",
+      "previousMonth": "Previous month bill",
+      "limit": "Set your usage limit",
+      "limitReached":"Your agents have reached the limits you configured for data collection, you need to modify your limits or wait till next month to be able to keep logging information.",
+      "mercadoPagoActive": "You account it's subscibed to MercadoPago"
+    },
+    "changePass": "Change Password",
+    "dontChangePass": "I don't want to change my password",
+    "CCAdd": "Add a Credit Card",
+    "cancel": "Cancel",
+    "copyClipboard": "Copy to clipboard",
+    "hostName": "Host Name",
+    "metricList": "Metrics List",
+    "metricNew": "New Metric",
+    "metricSettings": "Metric Settings",
+    "showMetrics": "Show metrics",
+    "agentMetricsNotFound": "Metrics not found",
+    "agentNewMetric": "Add new metric",
+    "removeNewMetric": "Remove metric",
+    "metricName": "Metric Name",
+    "metricUnit": "Metric Unit",
+    "saveMetric": "Save metrics",
+    "errorGetAgents": "Error getting agents",
+    "updateFine": " Settings was updated successfully",
+    "updateInternalOk": "The polling interval was edited successfully",
+    "agentdeletedOk": "Agent was deleted successfully",
+    "metricCreatedOk": "Metric created successfully",
+    "agentCreatedOk": "Agent created successfully",
+    "agentCreatedError": "Error creating Agent",
+    "invalidInterval": "This setting must be 1 or more.",
+    "targetUpdated": "Target successfully updates.",
+    "confirmDeleteCollector": "Are you sure you want to delete this collector",
+    "targetAdded": "Target successfully added",
+    "targetDelete": "Are you sure you want to delete this target",
+    "tresHoldMin": "Min Threshold is being greater or equal to Max Threshold",
+    "minGreaterMax": "a submetric have the min threshold grater than the max threshold.",
+    "tresholdNil": "Thresholds cannot be nil value",
+    "completeEmail": "At least one notification email must be provided",
+    "metricsAlertsSettings": "metric alerts was successfully updated",
+    "confirmRemoveCard": "Do you want to remove this credit card?",
+    "deleteUser": "Are you sure you want to delete user: ",
+    "userDeleted": "User succefully deleted",
+    "userCreated": "User succefully created",
+    "userUpdated": "User succefully updated",
+    "awsRefreshed": "Your AWS metrics will be refreshed!",
+    "infoUpdated":"Your information was updated successfully",
+    "accountMp":"Your account its now suscribed to MercadoPago"
+  }
+}

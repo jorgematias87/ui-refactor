@@ -14,7 +14,8 @@
         /**
          * Application modules
          **/
-        'app.landing'
+        'app.landing',
+        'app.translate',
     ]);
 
 }());

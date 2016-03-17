@@ -6,11 +6,13 @@
 
 (function(){
 
-  'use strict';
+    'use strict';
 
-  angular.module('app.core', [
-    'ui.router',
-    'restangular'
-  ]);
+    angular.module('app.core', [
+        'ngSanitize',
+        'ngCookies',
+        'ui.router',
+        'restangular'
+    ]);
 
 }());

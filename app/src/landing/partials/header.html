@@ -15,11 +15,11 @@
             <ul class="nav navbar-nav navbar-nav-mod navbar-right">
                 <li ng-class="{active: $state.includes('landing.it')}"><a ui-sref="landing.it">IT</a></li>
                 <li ng-class="{active: $state.includes('landing.agro')}"><a ui-sref="landing.agro">AGRO</a></li>
-                <li ng-class="{active: $state.includes('faq')}"><a href="#/faq">{{language.landing.menu.faq | uppercase}}</a></li>
-                <li ng-class="{active: $state.includes('developers')}"><a href="#developers">{{language.landing.menu.developers}}</a></li>
-                <li ng-class="{active: $state.includes('pricing')}"><a href="#/pricing">{{language.landing.menu.pricing}}</a></li>
-                <li><a href="../blog">{{language.landing.menu.blog}}</a></li>
-                <li class="toggle-lang"> <label class="toggle"> <input type="checkbox" ng-click="changeLang(language.langVal)" ng-checked="language.lang === 'es'"> <span data-unchecked="esp" data-checked="eng"></span> <p class="lang left ng-binding">ESP</p> <p class="lang right ng-binding">ING</p> </label> </li>
+                <li ng-class="{active: $state.includes('faq')}"><a href="#/faq">{{"landing.menu.faq" | translate | uppercase}}</a></li>
+                <li ng-class="{active: $state.includes('developers')}"><a href="#developers">{{"landing.menu.developers" | translate}}</a></li>
+                <li ng-class="{active: $state.includes('pricing')}"><a href="#/pricing">{{"landing.menu.pricing" | translate}}</a></li>
+                <li><a href="../blog">{{"landing.menu.blog" | translate}}</a></li>
+                <li class="toggle-lang"> <label class="toggle"> <input translate-language type="checkbox" ng-click="TranslateLanguage.change()" ng-checked="language.lang === 'es'"> <span data-unchecked="esp" data-checked="eng"></span> <p class="lang left ng-binding">ESP</p> <p class="lang right ng-binding">ING</p> </label> </li>
             </ul>
         </div><!--/.nav-collapse -->
     </div>
