@@ -8,15 +8,22 @@
     .config(configuration);
 
     /* @ngInject */
-    function run ($rootScope, $state) {
+    function run ($rootScope, $state){
         $rootScope.$state = $state;
+
+        //redirectTo
+        $rootScope.$on('$stateChangeStart', function(evt, to, params){
+            if(to.redirectTo){
+                evt.preventDefault();
+                $state.go(to.redirectTo, params);
+            }
+        });
     }
 
     /* @ngInject */
-    function configuration ($stateProvider, constants) {
-        // add your state mappings here
+    function configuration ($stateProvider, constants){
         $stateProvider
-        .state('landing',{
+        .state('landing', {
             url: '',
             views: {
                 '': {
@@ -28,7 +35,8 @@
                 'footer@landing': {
                     templateUrl: 'src/landing/partials/footer.html'
                 }
-            }
+            },
+            redirectTo: 'landing.it'
         })
         .state('landing.it', {
             url: '/it',
@@ -39,13 +47,13 @@
         .state('landing.agro', {
             url: '/agro',
             title: 'Metzoo - AGRO',
-            templateurl: 'src/landing/agro.html',
+            templateUrl: 'src/landing/agro.html',
             data: constants.cssClass.agro || {}
         })
         .state('landing.faq', {
             url: '/faq',
             title: 'Metzoo - FAQ',
-            templateurl: 'src/landing/faq.html',
+            templateUrl: 'src/landing/faq.html',
             data: constants.cssClass.default || {}
         });
     }

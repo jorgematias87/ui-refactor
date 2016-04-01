@@ -6,16 +6,16 @@
 
 (function(){
 
-  'use strict';
+    'use strict';
 
-  angular.module('app.core')
+    angular.module('app.core')
     .config(configuration);
 
-  /* @ngInject */
-  function configuration(RestangularProvider){
+    /* @ngInject */
+    function configuration(RestangularProvider){
 
-    RestangularProvider.setBaseUrl('/api');
+        RestangularProvider.setBaseUrl('/api');
 
-  }
+    }
 
 }());

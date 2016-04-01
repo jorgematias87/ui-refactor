@@ -1,14 +1,14 @@
 <section class="bg-2do section-inner-lg">
-	<div class="container">
-		<h1 class="title title-3ro title-underline"><strong>{{language.faq.titulo}}</strong> <small class="title title-small title-white">{{language.faq.subtitulo}}</small></h1>
-		<div class="row">
-			<div class="col-md-6" ng-repeat="items in language.faq.items">
+    <div class="container">
+        <h1 class="title title-3ro title-underline"><strong>{{'faq.title' | translate}}</strong> <small class="title title-small title-white">{{'faq.subtitle' | translate}}</small></h1>
+        <div class="row">
+            <div class="col-md-6" ng-repeat="items in ('faq.items' | translate)">
 				<div class="text-box" ng-repeat="item in items">
 					<h4><strong>{{item.titulo}}</strong></h4>
 					<p ng-repeat="texto in item.textos">{{texto}}</p>
 					<img class="faq_ico img-responsive img-center" ng-src="images/{{item.imagen}}.png" alt="" width="340" ng-if="item.imagen">
 				</div>
 			</div>
-		</div>
-	</div>
+        </div>
+    </div>
 </section>

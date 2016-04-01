@@ -1,11 +1,11 @@
 {
-  "disallowDanglingUnderscores": true,
+  "disallowDanglingUnderscores": false,
   "disallowEmptyBlocks": true,
   "disallowMixedSpacesAndTabs": true,
   "disallowImplicitTypeConversion": ["numeric", "boolean", "binary", "string"],
   "disallowMultipleLineBreaks": true,
   "disallowMultipleLineStrings": true,
-  "disallowMultipleVarDecl": true,
+  "disallowMultipleVarDecl": false,
   "disallowNewlineBeforeBlockStatements": true,
   "disallowOperatorBeforeLineBreak": ["+", "."],
   "disallowSpaceAfterKeywords": ["if", "else", "for", "while", "do", "switch", "try", "catch"],

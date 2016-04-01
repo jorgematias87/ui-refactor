@@ -13,14 +13,17 @@ module.exports = function (grunt) {
   grunt.registerTask('server', [
     'wiredep',
     'configureProxies',
+    'jshint',
+    'jscs',
     'connect:livereload',
-    'concurrent:dev'
+    'concurrent:dev',
   ]);
 
   grunt.registerTask('test', ['karma:test']);
 
   grunt.registerTask('build', [
     'jshint',
+    'jscs',
     'karma:dist',
     'ngdocs',
     'clean:dist',

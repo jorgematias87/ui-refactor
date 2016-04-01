@@ -12,7 +12,8 @@
         'ngSanitize',
         'ngCookies',
         'ui.router',
-        'restangular'
+        'restangular',
+        'translate'
     ]);
 
 }());

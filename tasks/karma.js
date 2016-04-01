@@ -4,6 +4,8 @@ module.exports = {
     files: [
       'app/bower_components/angular/angular.js',
       'app/bower_components/angular-mocks/angular-mocks.js',
+      'app/bower_components/angular-cookies/angular-cookies.js',
+      'app/bower_components/angular-sanitize/angular-sanitize.js',
       'app/bower_components/angular-ui-router/release/angular-ui-router.js',
       'app/bower_components/lodash/dist/lodash.js',
       'app/bower_components/restangular/dist/restangular.js'
@@ -21,7 +23,7 @@ module.exports = {
       }
     ],
     runnerPort: 9876,
-    browsers: ['PhantomJS2'],
+    browsers: ['Chrome'],
     logLevel: 'ERROR'
   },
   dist: {
@@ -36,7 +38,7 @@ module.exports = {
       }
     ],
     runnerPort: 9876,
-    browsers: ['PhantomJS2'],
+    browsers: ['Chrome'],
     logLevel: 'ERROR'
   }
 };

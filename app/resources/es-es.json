@@ -18,12 +18,12 @@
       "pricing": "Precios",
       "blog": "Blog"
     },
-    "titulo": "Sentí el poder de visualizar tus datos. Optimizá tus decisiones más importantes",
-    "subtitulo": "Métricas en tiempo real para hacer inteligente los negocios, las ciudades y las cosas.",
-    "empezar":"Empiece ahora",
-    "ingresar": "Ingresar",
+    "title": "Sentí el poder de visualizar tus datos. Optimizá tus decisiones más importantes",
+    "subtitle": "Métricas en tiempo real para hacer inteligente los negocios, las ciudades y las cosas.",
+    "start":"Empiece ahora",
+    "signin": "Ingresar",
     "o": "o...",
-    "probar": [
+    "try": [
       "Pruebe gratis",
       "(30 días)"
     ],
@@ -38,41 +38,41 @@
     "resetPass": "Resetea tu contraseña",
     "mainRegisterError": "El usuario que intenta registrar ya existe!",
     "mainRegisterSuccess": "Un correo electrónico ha sido enviado a su cuenta. Compruébelo y active su cuenta",
-    "caracteristicas": {
-      "titulo": "En el mundo conectado gobiernan los datos, el que sabe procesarlos y medirlos es quien puede lograr un cambio",
-      "subtitulo": "Desde la temperatura de tu vivero, hasta el tráfico de autos, motos y bicicletas de la esquina más concurrida. Todo los que nos rodea se puede medir en tiempo real.",
+    "features": {
+      "title": "En el mundo conectado gobiernan los datos, el que sabe procesarlos y medirlos es quien puede lograr un cambio",
+      "subtitle": "Desde la temperatura de tu vivero, hasta el tráfico de autos, motos y bicicletas de la esquina más concurrida. Todo los que nos rodea se puede medir en tiempo real.",
       "items": [
         {
-          "imagen": "configurar",
-          "titulo": "Fácil para configurar",
-          "texto": "Colectamos tu información atraves de nuestra API pública o instalando nuestros agentes en tu plataforma. En pocos minutos, ya empezamos a monitorear."
+          "image": "configurar",
+          "title": "Fácil para configurar",
+          "text": "Colectamos tu información atraves de nuestra API pública o instalando nuestros agentes en tu plataforma. En pocos minutos, ya empezamos a monitorear."
         },
         {
-          "imagen": "medir",
-          "titulo": "Intuitivo para medir",
-          "texto": "Transformamos los datos duros en métricas simples y poderosas para tomar decisiones en tiempo real. Tu negocio cambio todo el tiempo."
+          "image": "medir",
+          "title": "Intuitivo para medir",
+          "text": "Transformamos los datos duros en métricas simples y poderosas para tomar decisiones en tiempo real. Tu negocio cambio todo el tiempo."
         },
         {
-          "imagen": "visualizar",
-          "titulo": "Hermosos para visualizar",
-          "texto": "Mostramos las métricas desde un escritorio intuitivo y responsive con bellos gráficos que se adaptan a la pantalla que precises."
+          "image": "visualizar",
+          "title": "Hermosos para visualizar",
+          "text": "Mostramos las métricas desde un escritorio intuitivo y responsive con bellos gráficos que se adaptan a la pantalla que precises."
         },
         {
-          "imagen": "decidir",
-          "titulo": "Versátil para decidir",
-          "texto": "Generamos las alertas que necesites, en el momento que quieras. Las configuras una vez y te olvidas. Metzoo se adapta a tu negocio."
+          "image": "decidir",
+          "title": "Versátil para decidir",
+          "text": "Generamos las alertas que necesites, en el momento que quieras. Las configuras una vez y te olvidas. Metzoo se adapta a tu negocio."
         },
         {
-          "imagen": "monitorear",
-          "titulo": "¿Qué se puede monitorear?",
-          "texto": "Big Data, Infraestructura IT, plataforma de ecommerce, evolución de Ventas, actividad de usuarios, campañas de marketing, redes soliales. Lo que necesites y sea medible."
+          "image": "monitorear",
+          "title": "¿Qué se puede monitorear?",
+          "text": "Big Data, Infraestructura IT, plataforma de ecommerce, evolución de Ventas, actividad de usuarios, campañas de marketing, redes soliales. Lo que necesites y sea medible."
         }
       ]
     }
   },
   "signin": {
     "titulo": "Bienvenido",
-    "forgotClick": "Hacé click aqui" 
+    "forgotClick": "Hacé click aqui"
   },
   "signup": {
     "titulo": "Empezá ahora!",

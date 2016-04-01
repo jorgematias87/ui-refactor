@@ -74,9 +74,49 @@
     right: 0;
     color: #434142;
     font-family: sans-serif;
-
 }
 
+.col-v-center {
+    float: none !important;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: -4px;
+}
+
+.v-center-flexbox {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.relative {
+    position: relative !important;
+}
+
+.video-wrapper {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:5px;
+	height:0;
+	overflow:hidden;
+}
+
+.video-wrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 5px solid #7EB51E;
+	background: url('//img.youtube.com/vi/NYnHjH91LKo/hqdefault.jpg') no-repeat center;
+	background-size: cover;
+}
+
+/* media queries */
 @media (max-width: 767px) {
     .hand {
         position: absolute;
@@ -90,29 +130,15 @@
 }
 
 @media (max-width: 991px) {
-    .video-wrapper {
-        width: 100% !important;
-        padding-left: 0 !important;
-        padding-right: 0 !important;
-    }
-}
+	.col-v-center {
+		margin-right: 0;
+	}
 
-.col-v-center {
-    float: none !important;
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: -4px;
+	.bg-img-tablet-map {
+		height: auto;
+	}
 
-}
-.v-center-flexbox {
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    -webkit-box-align: center;
-    align-items: center;
-}
-.relative {
-    position: relative;
+	.block-sm {
+		display: block !important;
+	}
 }

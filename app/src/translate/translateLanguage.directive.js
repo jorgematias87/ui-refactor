@@ -1,6 +1,6 @@
 /**
  * @ngdoc directive
- * @name app.translate.directive:translateLanguage
+ * @name translate.directive:translateLanguage
  * @scope true
  * @param {object} test test object
  * @restrict E
@@ -14,28 +14,30 @@
   'use strict';
 
   angular
-    .module('app.translate')
+    .module('translate')
     .directive('translateLanguage', translateLanguage);
 
   /* @ngInject */
-  function translateLanguage(){
+  function translateLanguage($translate){
 
     return {
       restrict: 'A',
       controller: controller,
-      controllerAs: 'TranslateLanguage'
+      controllerAs: 'Translate'
     };
 
     /////////////////////
 
-    function controller () {
+    function controller (){
+       /*jshint validthis:true */
        var vm = this;
        vm.change = change;
+       vm.language = $translate.language();
 
        /////////////////////
 
-       function change (lang) {
-           console.log('hola')
+       function change (lang){
+           $translate.use(lang);
        }
 
     }

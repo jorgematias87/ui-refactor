@@ -18,12 +18,12 @@
       "pricing": "Pricing",
       "blog": "Blog"
     },
-    "titulo": "Sense the power of data visualization. Tune your key decisions",
-    "subtitulo": "Real time metrics for smart businesses, smart cities and smart things",
-    "empezar":"Start now",
-    "ingresar": "Sign In",
+    "title": "Sense the power of data visualization. Tune your key decisions",
+    "subtitle": "Real time metrics for smart businesses, smart cities and smart things",
+    "start":"Start now",
+    "signin": "Sign In",
     "o": "or...",
-    "probar": [
+    "try": [
       "Try for free",
       "(30 days)"
     ],
@@ -38,34 +38,35 @@
     "resetPass": "Reset your password",
     "mainRegisterError":"The user you are trying to register already exists!",
     "mainRegisterSuccess": "An email has been sent to your account. Check it out and activate your account!",
-    "caracteristicas": {
-      "titulo": "In a connected world, data is king. Those who can process and measure it faster and efficiently are the ones who can make a change.",
-      "subtitulo": "EVERYTHING that surrounds us can be measured in real time. Activities from the online and the offline worlds. From the temperature of your own greenhouse or the ambient of a silo, to the vehicle traffic in a city or the behaviour of an eCommerce platform or a Data Center. Unleash your instinct of measurement and Metzoo will do the rest.",
+    "features": {
+      "length": "5",
+      "title": "In a connected world, data is king. Those who can process and measure it faster and efficiently are the ones who can make a change.",
+      "subtitle": "EVERYTHING that surrounds us can be measured in real time. Activities from the online and the offline worlds. From the temperature of your own greenhouse or the ambient of a silo, to the vehicle traffic in a city or the behaviour of an eCommerce platform or a Data Center. Unleash your instinct of measurement and Metzoo will do the rest.",
       "items": [
         {
-          "imagen": "configurar",
-          "titulo": "Collect data",
-          "texto": "Your information in one place. Send data quickly through our public API using our SDK or installing our agents in your platform."
+          "image": "configurar",
+          "title": "Collect data",
+          "text": "Your information in one place. Send data quickly through our public API using our SDK or installing our agents in your platform."
         },
         {
-          "imagen": "medir",
-          "titulo": "Transform data into metrics",
-          "texto": "Your business cannot wait. We convert your business hard data into simple and powerful metrics to make real-time decisions."
+          "image": "medir",
+          "title": "Transform data into metrics",
+          "text": "Your business cannot wait. We convert your business hard data into simple and powerful metrics to make real-time decisions."
         },
         {
-          "imagen": "visualizar",
-          "titulo": "Generate graphics",
-          "texto": "All your metrics in one [desk, interface, place]. Simple, intuitive and adaptable to any screen. Visualize in modern graphics, flexible to watch and modify anything you need in real time."
+          "image": "visualizar",
+          "title": "Generate graphics",
+          "text": "All your metrics in one [desk, interface, place]. Simple, intuitive and adaptable to any screen. Visualize in modern graphics, flexible to watch and modify anything you need in real time."
         },
         {
-          "imagen": "decidir",
-          "titulo": "Generate alerts",
-          "texto": "All the “IF” you may need, whenever and wherever you want. Configure alerts to receive them in you email or in the new collaborative tools (e.g. Pager Duty)"
+          "image": "decidir",
+          "title": "Generate alerts",
+          "text": "All the “IF” you may need, whenever and wherever you want. Configure alerts to receive them in you email or in the new collaborative tools (e.g. Pager Duty)"
         },
         {
-          "imagen": "monitorear",
-          "titulo": "Pay for what you use",
-          "texto": "Choose the option that best adapts to your needs considering the data flow and the frequency of the capture you require."
+          "image": "monitorear",
+          "title": "Pay for what you use",
+          "text": "Choose the option that best adapts to your needs considering the data flow and the frequency of the capture you require."
         }
       ]
     }

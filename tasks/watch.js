@@ -1,4 +1,4 @@
-var watchTasks = [];
+var watchTasks = ['jshint', 'jscs'];
 
 module.exports = {
   options:{

@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Kelvetica";
+  src: url('../../fonts/Kelvetica Nobis.otf?1448048438') format('opentype');
+}
+/* line 7, ../partials/_skin.scss */
+body {
+  background-image: url('../../images/welcome/super-logo.jpg');
+  font-family: "Kelvetica";
+  font-size: 1.5em;
+  margin-top: 5%;
+  background-color: white;
+}
+
+/* line 15, ../partials/_skin.scss */
+h3 {
+  color: darkcyan;
+}
+
+/* line 2, ../partials/_welcome.scss */
+.welcome .message {
+  color: red;
+  font-weight: bold;
+}

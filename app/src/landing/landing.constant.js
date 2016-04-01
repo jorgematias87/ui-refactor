@@ -21,7 +21,7 @@
     };
 
     constants.cssClass.it = _.merge({}, constants.cssClass.default, {
-        'headerClass': 'header-transparent underline-blue',
+        'headerClass': 'header-transparent underline-blue'
     });
 
     angular
