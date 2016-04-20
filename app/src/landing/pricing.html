@@ -1,0 +1,51 @@
+<section class="bg-2do section-inner-lg">
+    <div class="container">
+        <h1 class="title title-3ro title-underline"><strong>{{"pricing.title" | translate}}</strong></h1>
+        <h4 class="title title-white">{{"pricing.subtitle" | translate}}</h4>
+        <p class="title title-white title-font-change marginB">{{"pricing.texts[0]" | translate}} </p>
+
+        <table class="table table-no-bordered table-middle" align="center" >
+            <thead>
+                <tr>
+                    <th class="col-md-6 bg-4to text-center" ng-repeat="title in ('pricing.table.titles' | translate)" ng-class="{'half': $index === 1}">
+                        <h4 class="title title-1ro" ng-if="('pricing.table.titles' | translate).length > ($index+1)"><strong>{{title}}</strong></h4>
+                        <h4 class="title title-1ro" ng-if="('pricing.table.titles' | translate).length === ($index+1)"><strong>{{title[0]}}</strong> <small class="title title-1ro">{{title[1]}}</small></h4>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="text in ('pricing.table.texts' | translate)">
+                    <td ng-if="('pricing.table.texts' | translate).length > ($index+1)" class="bg-6to text-right">{{text[0]}}</td>
+                    <td ng-if="('pricing.table.texts' | translate).length > ($index+1)" class="bg-6to half">{{text[1]}}</td>
+                    <td ng-if="('pricing.table.texts' | translate).length === ($index+1)" colspan="2" class="bg-white half text-center"><p class="title title-2do"><span class="title title-1ro">{{text[0]}} </span> {{text[1]}}</p></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="paddingTB clearfix">
+            <div class="col-sm-7 col-md-5 col-centered text-center clearfix">
+                <hr class="title title-line pull-left">
+                <hr class="title title-line pull-right">
+                <h4 class="title title-white text-center">{{"landing.start" | translate}}</h4>
+
+                <div class="row">
+                    <div class="col-md-6 col-sm-6" style="padding-bottom: 20px;">
+                        <a href="#/signin" class="col-md-7 btn btn-transparent"><strong class="title title-white">{{"landing.signin" | translate}} </strong></a>
+                        <em class="col-md-5 title title-white text-center" style="font-size: 16px; padding-top: 5px;">{{"landing.o" | translate}}...</em>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <a href="#/contactus" class="col-md-12 btn btn-transparent" >
+                            <strong class="title title-white">
+                                {{"landing.contactus" | translate}}
+                            </strong>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <p class="text-center title title-white title-font-change">
+            {{"pricing.texts[1][0]" | translate}} <a href="mailto:sales@metzoo.com" class="link link-3ro">sales@metzoo.com </a>{{"pricing.texts[1][1]" | translate}}
+        </p>
+    </div>
+</section>

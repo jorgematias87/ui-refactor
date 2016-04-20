@@ -1,9 +1,10 @@
 /**
  * @ngdoc filter
  * @name translate.filer:translate
- * @description < description placeholder >
- * @param {object} input object to be filtered
- * @returns {object} < returns placeholder >
+ * @requires translate.$translate
+ * @description Uses $translate service to translate contents
+ * @param {string} translationId A translation id to be translated.
+ * @returns {string|object} Translate text or object.
  */
 
 (function(){

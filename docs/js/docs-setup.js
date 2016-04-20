@@ -81,8 +81,8 @@ NG_DOCS={
       "shortName": "translate",
       "type": "overview",
       "moduleName": "translate",
-      "shortDescription": "&lt; description placeholder &gt;",
-      "keywords": "api description overview placeholder translate"
+      "shortDescription": "The main module which holds everything together.",
+      "keywords": "api holds main module overview translate"
     },
     {
       "section": "api",
@@ -90,8 +90,8 @@ NG_DOCS={
       "shortName": "translate.$translate",
       "type": "service",
       "moduleName": "translate",
-      "shortDescription": "&lt; description placeholder &gt;",
-      "keywords": "$translate $translateprovider api array asi caso con configurado contrario dado de defaultlanguage description dice el en esta existe fija function instant instantly internal key la langkey language lenguage llame lo loaded localstorage mediante obtener obtiene para parameter parametros placeholder represents returns se service sets si sin token traducci traducciones translate translation translationid una usar"
+      "shortDescription": "El servicio translate cuenta con un provider ($translateProvider) para configurar",
+      "keywords": "$translate $translateprovider al angular api app archivo array asi carga caso chequea con config configurado configurar configuration contrario core crea cuanto cuenta dado de defaultlanguage dice el empezar en es-es example existe fileloader function instant instantly internal json key la langkey language las lenguage llame lo loaded localstorage los mediante metodos module necesarios object obtencion obtener obtiene options para parameter parametros pasandole poder prefijo prefix provider represents resources returns se service servicio sets si sin suffix sufijo token traducci traducciones translate translation translationid una url usar utilizarlo"
     },
     {
       "section": "api",
@@ -99,8 +99,8 @@ NG_DOCS={
       "shortName": "translateLanguage",
       "type": "directive",
       "moduleName": "translate",
-      "shortDescription": "&lt; description placeholder &gt;",
-      "keywords": "api description directive object placeholder test translate true"
+      "shortDescription": "La directiva se encarga de gestionar el cambio de lenguage (switch).",
+      "keywords": "api cambio change de directiva directive el encarga function gestionar key la langkey language lenguage object se test translate true"
     },
     {
       "section": "api",
@@ -108,8 +108,8 @@ NG_DOCS={
       "shortName": "translate",
       "type": "filter",
       "moduleName": "translate",
-      "shortDescription": "&lt; description placeholder &gt;",
-      "keywords": "api description filer filter filtered input object placeholder returns translate"
+      "shortDescription": "Uses $translate service to translate contents",
+      "keywords": "$translate api contents filer filter object service text translate translated translation translationid"
     }
   ],
   "apis": {

@@ -72,208 +72,195 @@
     }
   },
   "signin": {
-    "titulo": "Welcome",
-    "forgotClick": "Click here" 
+    "title": "Welcome",
+    "forgotClick": "Click here"
   },
   "signup": {
-    "titulo": "Start now!",
-    "textos": [
+    "title": "Start now!",
+    "texts": [
       "Try for",
       "30 free days",
       "to know how much is for you"
     ]
   },
   "faq":{
-    "titulo": "FAQ",
-    "subtitulo": "(Frequently answered questions)",
+    "title": "FAQ",
+    "subtitle": "(Frequently answered questions)",
     "items": [
       [
         {
-          "titulo": "What is Metzoo?",
-          "textos": [
+          "title": "What is Metzoo?",
+          "texts": [
             "It is a complete cloud solution for real-time monitoring of all variables directly impacting in any activity: from servers to the city traffic. This tool offers everything you need to visualize, analyze and generate alerts about the metrics you're most interested in for a rapid action, in a very simple and visual way. With beautiful graphics, updated in real time, you will make better decisions.", 
             "Metzoo is developed by systems specialists so it combines the agility, power and scalability offered by cloud technology with the power of business data analysis tools.  Our proposal is that you can measure, measure and measure. And to keep this task simple and practical, so you can do it in your office, at home or wherever you want."
           ],
-          "imagen": "faq_ico_01"
+          "image": "faq_ico_01"
         },
         {
-          "titulo": "What can I measure?",
-          "textos": [
+          "title": "What can I measure?",
+          "texts": [
             "All online or offline events have great potential to be measured.  From a marketing campaign, a small or big scale productive process, to the city traffic or the behavior of users that buy online using an ecommerce platform. Find more information about applications in our blog (link to the blog)"
-          ],
-          "imagen": ""
+          ]
         },
         {
-          "titulo": "How do I send data to Metzoo?",
-          "textos": [
+          "title": "How do I send data to Metzoo?",
+          "texts": [
             "When you activate your service -free or Premium-, you download the agent compatible with the server where the data you want to measure with our tool is hosted. It is very simple, they´re one-click install applications. Once installed, you activate it and you're ready to start sending your information!", 
             "You can integrate your data with Metzoo in 3 different ways: 1) Public API (watch here how to integrate it with you site) 2) Arduino-like sensors, y 3) SDKs (NodeJS, golang, Ruby)."
-          ],
-          "imagen": ""
+          ]
         },
         {
-          "titulo": "What is a data flow?",
-          "textos": [
+          "title": "What is a data flow?",
+          "texts": [
             "A data flow is a metric sent from a specific source in a particular frequency. For example, if you send us a front-end server´s CPU usage every 10 seconds, that´s a data flow. We only charge for the data written in the disk."
-          ],
-          "imagen": ""
+          ]
         },
         {
-          "titulo": "What if I'm not sending the data to the frequencies shown?",
-          "textos": [
+          "title": "What if I'm not sending the data to the frequencies shown?",
+          "texts": [
             "We calculate the cost based on the frequency in which you have configured the data flow. For example, if you are sending data flows in 15 seconds resolutions, we calculate the cost as the average of the nearest two price points. For resolutions of 5 and higher, the price is the same."
-          ],
-          "imagen": ""
+          ]
         },
         {
-          "titulo": "Do you offer discounts?",
-          "textos": [
+          "title": "Do you offer discounts?",
+          "texts": [
             "Yes! We have 3 different ways: 1) for data volume (see our plans here), 2) for entity type: if you are and NGO or an education institution, and 3) paying the plan of your choice in advance. Check our list of plans and you will see!"
-          ],
-          "imagen": ""
+          ]
         },
         {
-          "titulo": "What if I send lots of data?",
-          "textos": [
+          "title": "What if I send lots of data?",
+          "texts": [
             "There is no problem, since there is no limit on the data flow quantity you can send us. If you want to make sure, you can send us an email to sales@metzoo.com explaining your particular case and we'll be glad to send you the plan that best fits your demand."
-          ],
-          "imagen": ""
+          ]
         },
         {
-          "titulo": "How long do you keep my information?",
-          "textos": [
+          "title": "How long do you keep my information?",
+          "texts": [
             "For one year. It is a reasonable period of time to keep source data. It makes no sense to keep data during longer periods of time in the native resolution. They´re too many points that may even complicate the current visualization."
-          ],
-          "imagen": ""
+          ]
         }
       ],
       [
         {
-          "titulo": "Do you have a free version?",
-          "textos": [
+          "title": "Do you have a free version?",
+          "texts": [
             "Yes! When you register, you can access a free 30-day trial version with no service restrictions. In this period we will not require your credit card information. Just log in and start monitoring! Once the period is finished, you can choose the free plan for Developers (with some functionalities limitations) or an unlimited production plan. Enter here to know the scope and characteristics of our plans."
-          ],
-          "imagen": ""
+          ]
         },
         {
-          "titulo": "Is it compatible with Windows, Mac and Linux?",
-          "textos": [
+          "title": "Is it compatible with Windows, Mac and Linux?",
+          "texts": [
             "Yes!"
-          ],
-          "imagen": ""
+          ]
         },
         {
-          "titulo": "Can I personalize the desktop and the templates?",
-          "textos": [
+          "title": "Can I personalize the desktop and the templates?",
+          "texts": [
             "Yes. You can easily adapt the visualization of your desktop or graphics according to your requirements and later use them again among your different sources of data, changing them in real time. You can select a group of predefined templates and combine different variables of blocks at your convenience. Personalize ALL the elements in your dashboards. Use our couch mode for the TVs you have in your office!"
-          ],
-          "imagen": ""
+          ]
         },
         {
-          "titulo": "What is the Service Aggregation?",
-          "textos": [
+          "title": "What is the Service Aggregation?",
+          "texts": [
             "The flexibility of an aggregation service allows to easily combine different measurements sent to Metzoo in a new, unique and complete measurement. Ideal for ephemeral environments, our aggregation level will allow you to easily manage ongoing metrics in order to scale in data volumes."
           ],
-          "imagen": "faq_ico_02"
+          "image": "faq_ico_02"
         },
         {
-          "titulo": "What is the purpose of establishing correlations?",
-          "textos": [
+          "title": "What is the purpose of establishing correlations?",
+          "texts": [
             "Setting correlations among different data is a very powerful tool to face crisis when systems are on fire! That is why with Mezoo you can group a set of metrics and save them in a graphic in order to be well prepared to face those “fires” and to establish new levels of dependency among your metrics."
-          ],
-          "imagen": ""
+          ]
         },
         {
-          "titulo": "Is it multiplatform?",
-          "textos": [
+          "title": "Is it multiplatform?",
+          "texts": [
             "Yes. No matter the language you're working, Metzoo easily integrates with Ruby, Java, Python, .Net and Node JS among others. Discover how easy Metzoo integration can be with just a few lines of code."
-          ],
-          "imagen": ""
+          ]
         },
         {
-          "titulo": "Does it have a public API so I can integrate my systems?",
-          "textos": [
+          "title": "Does it have a public API so I can integrate my systems?",
+          "texts": [
             "Yes. That is why we base our system in an API so you don't get locked in Metzoo and to let you integrate your business data easily. You are the owner of your data, we only help you transform your data into valuable information so you can make faster and more efficient business decisions.  With our API, you can focus on your business and we will be glad that you do."
-          ],
-          "imagen": ""
+          ]
         },
         {
-          "titulo": "I am an SME, is Metzoo for me?",
-          "textos": [
+          "title": "I am an SME, is Metzoo for me?",
+          "texts": [
             "Yes. All businesses have data to measure. All companies will grow if they can have precise statistics of the variables that run their business. That is why Metzoo helps SMEs and big companies equally, following their business scalability."
           ],
-          "imagen": "faq_ico_03"
+          "image": "faq_ico_03"
         }
       ]
     ]
   },
-  "desarrolladores":{
-    "titulo":"Developers",
-    "texto":"To integrate our public API, we give you requirements and responses examples for every request. If you have more questions, write them to",
+  "developers":{
+    "title":"Developers",
+    "text":"To integrate our public API, we give you requirements and responses examples for every request. If you have more questions, write them to",
     "tabs": [
       {
-        "titulo": "Register an agent",
+        "title": "Register an agent",
         "active": "active",
         "items": [
           {
-            "titulo": "POST agent",
-            "texto": "curl -i \\<br>-H \"Content-Type: application/json\" \\<br>-H \"User-Agent: Metzoo-Curl-Client\" \\<br>-d '{\"host_name\": \"my-curl-client\", \"customer_key\": \"my-customer-key\"}' \\<br>-X POST http://api.metzoo.com/agents"
+            "title": "POST agent",
+            "text": "curl -i \\<br>-H \"Content-Type: application/json\" \\<br>-H \"User-Agent: Metzoo-Curl-Client\" \\<br>-d '{\"host_name\": \"my-curl-client\", \"customer_key\": \"my-customer-key\"}' \\<br>-X POST http://api.metzoo.com/agents"
           },
           {
-            "titulo": "Response example:",
-            "texto": "Success: <br>Status code: 201 <br>Body: {\"agentKey\": \"yourAgentKey\", \"status\": 201} <br><br>An error happend, status code: <br>500(validation errors) <br>404(invalid customer key) <br>503(db errors) <br>-Empty body"
+            "title": "Response example:",
+            "text": "Success: <br>Status code: 201 <br>Body: {\"agentKey\": \"yourAgentKey\", \"status\": 201} <br><br>An error happend, status code: <br>500(validation errors) <br>404(invalid customer key) <br>503(db errors) <br>-Empty body"
           }
         ]
       },
       {
-        "titulo": "Register a metric",
+        "title": "Register a metric",
         "active": "",
         "items": [
           {
-            "titulo": "POST metric",
-            "texto": "curl -i \\<br>-H \"Content-Type: application/json\" \\<br>-H \"User-Agent: Metzoo-Curl-Client\" \\<br>-H \"Agent-Key: my-agent-key\" \\<br>-d '[\"memory.Free\", \"memory.Used\", \"memory.Total\"]' \\<br>-X POST https://api.metzoo.com/metrics"
+            "title": "POST metric",
+            "text": "curl -i \\<br>-H \"Content-Type: application/json\" \\<br>-H \"User-Agent: Metzoo-Curl-Client\" \\<br>-H \"Agent-Key: my-agent-key\" \\<br>-d '[\"memory.Free\", \"memory.Used\", \"memory.Total\"]' \\<br>-X POST https://api.metzoo.com/metrics"
           },
           {
-            "titulo": "Response example:",
-            "texto": "Success: <br>Status code: 201 <br><br>Errors: <br>400: invalid data. <br>403: invalid agent key. <br>503: db errors (should retry)"
+            "title": "Response example:",
+            "text": "Success: <br>Status code: 201 <br><br>Errors: <br>400: invalid data. <br>403: invalid agent key. <br>503: db errors (should retry)"
           }
         ]
       },
       {
-        "titulo": "POST data",
+        "title": "POST data",
         "active": "",
         "items": [
           {
-            "titulo": "POST metric/data",
-            "texto": "curl -i \\<br>-H \"Content-Type: application/json\" \\<br>-H \"User-Agent: Metzoo-Curl-Client\" \\<br>-H \"Agent-Key: my-agent-key\" \\<br>-d '{\"t\":1414413302, \"memory.Free\":1.94097152e+08, \"memory.Total\":5.1422003e+08, \"memory.Used\":3.2012288e+08}' \\<br>-X POST https://api.metzoo.com/metrics/data"
+            "title": "POST metric/data",
+            "text": "curl -i \\<br>-H \"Content-Type: application/json\" \\<br>-H \"User-Agent: Metzoo-Curl-Client\" \\<br>-H \"Agent-Key: my-agent-key\" \\<br>-d '{\"t\":1414413302, \"memory.Free\":1.94097152e+08, \"memory.Total\":5.1422003e+08, \"memory.Used\":3.2012288e+08}' \\<br>-X POST https://api.metzoo.com/metrics/data"
           },
           {
-            "titulo": "Response example",
-            "texto": "Success: <br>Status code: 201: <br><br>Errors: <br>400: error parsing values. <br>403: invalid agent key. <br>503: db error (should retry)"
+            "title": "Response example",
+            "text": "Success: <br>Status code: 201: <br><br>Errors: <br>400: error parsing values. <br>403: invalid agent key. <br>503: db error (should retry)"
           }
         ]
       },
       {
-        "titulo": "Agent update",
+        "title": "Agent update",
         "active": "",
         "items": [
           {
-            "titulo": "Get Request",
-            "texto": "curl -i \\<br>-H \"Content-Type: application/json\" \\<br>-H \"User-Agent: Metzoo-Curl-Client\" \\<br>-H \"Agent-Key: my-agent-key\" \\<br>https://api.metzoo.com/agents"
+            "title": "Get Request",
+            "text": "curl -i \\<br>-H \"Content-Type: application/json\" \\<br>-H \"User-Agent: Metzoo-Curl-Client\" \\<br>-H \"Agent-Key: my-agent-key\" \\<br>https://api.metzoo.com/agents"
           },
           {
-            "titulo": "Response example:",
+            "title": "Response example:",
             "ejemplos": [
               {
-                "titulo": "If agent had no change:",
-                "texto": "{\"key\": \"agentUnchanged\", \"body\": \"\"}"
+                "title": "If agent had no change:",
+                "text": "{\"key\": \"agentUnchanged\", \"body\": \"\"}"
               },
               {
-                "titulo": "If agent has been change:",
-                "texto": "{\"key\":\"agentUpdate\", \"body\": {\"customer_id\": {\"$oid\": \"53d6a5d7f93165513d000004\"}, \"deleted\": false, \"deleted_on\": {\"$date\":\"0001-01-03T00:00:00.000Z\"}, \"enabled\": true, \"endpoints\": [\"https://api.metzoo.com\"], \"host_name\": \"my-host-name\", \"intencional_disabled\": false, \"key\": \"my-agent-key\", \"polling_interval\": 60, \"type\": \"linux\", \"update_request\": true}}"
+                "title": "If agent has been change:",
+                "text": "{\"key\":\"agentUpdate\", \"body\": {\"customer_id\": {\"$oid\": \"53d6a5d7f93165513d000004\"}, \"deleted\": false, \"deleted_on\": {\"$date\":\"0001-01-03T00:00:00.000Z\"}, \"enabled\": true, \"endpoints\": [\"https://api.metzoo.com\"], \"host_name\": \"my-host-name\", \"intencional_disabled\": false, \"key\": \"my-agent-key\", \"polling_interval\": 60, \"type\": \"linux\", \"update_request\": true}}"
               },
               {
-                "titulo": "Note: \"key\" is used to say if an accion should be done or if message should be ignored."
+                "title": "Note: \"key\" is used to say if an accion should be done or if message should be ignored."
               }
             ]
           }
@@ -282,25 +269,25 @@
     ]
 
   },
-  "precios": {
-    "titulo": "Pricing",
-    "subtitulo": "You make your own plan. There are two variables that define the price: quantity of data flows sent for measuring (metrics) and frequency of transmissions/submissions (envíos). Pay Per Use (PPU) system. ",
-    "textos": [
+  "pricing": {
+    "title": "Pricing",
+    "subtitle": "You make your own plan. There are two variables that define the price: quantity of data flows sent for measuring (metrics) and frequency of transmissions/submissions (envíos). Pay Per Use (PPU) system. ",
+    "texts": [
       "The more metrics you send in lower frequency periods of time, the lower the price will be. For example: if you send 100 metrics every 5 minutes, the price will be lower than if you send them every 30 seconds. Enter here to know the values grid and choose the one that best fits your business.",
       [
         "Plans available for big data volumes. Send us an email with your requirement to",
         "and we will work out the right plan for you."
       ]
     ], 
-    "tabla":{
-      "titulos": [
+    "table":{
+      "titles": [
         "METRIC VALUE PER MONTH",
         [
           "RESOLUTION ",
           "(Seconds between send)"
         ]
       ],
-      "textos": [
+      "texts": [
         [
           "$0.29",
           "5 seconds"

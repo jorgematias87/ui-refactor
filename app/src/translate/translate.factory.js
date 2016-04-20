@@ -1,7 +1,26 @@
 /**
  * @ngdoc service
  * @name translate.$translate
- * @description < description placeholder >
+ * @description
+ * El servicio translate cuenta con un provider ($translateProvider) para configurar
+ * los parametros necesarios para poder empezar a utilizarlo.
+ * En cuanto al servicio en si cuenta con metodos para la carga y la obtencion de las traducciones.
+ * @example
+ * <pre>
+ *  $translateProvider example:
+ *
+ *   angular.module('app.core')
+ *   .config(configuration);
+ *
+ *    function configuration($translateProvider){
+ *        $translateProvider.fileLoader({
+ *            prefix: 'resources/',
+ *            suffix: '.json'
+ *        });
+ *        $translateProvider.language('es-es');
+ *    }
+ * </pre>
+ *
  */
 
 (function(){
@@ -33,6 +52,22 @@
 
         ////////////////////
 
+        /**
+        * @ngdoc function
+        * @name translate.$translate.#fileLoader
+        * @methodOf translate.$translate
+        *
+        * @description
+        * $translateProvider: <br>
+        * Crea la url al archivo de traducciones pasandole un prefijo y un sufijo.
+        * <pre>
+        * $translate.fileLoader({
+        *   prefix: 'resources/',
+        *   suffix: '.json'
+        * });
+        * </pre>
+        * @param {object} options Options object, which gets prefix, suffix and key.
+        */
         function fileLoader (options){
             if(!options || !angular.isString(options.prefix) || !angular.isString(options.suffix)){
                 throw new Error('Couldn\'t load file, no prefix or suffix specified!');
@@ -89,8 +124,8 @@
         *
         * @description
         * Dice a "translate" que lenguage usar mediante el langKey dado.<br>
-        * Se fija si el langKey dado existe en el array de traducciones en caso contrario lo obtiene.<br>
-        * En el caso de que se lo llame sin parametros esta se fija si existe una langKey en el localStorage<br>
+        * Chequea si el langKey dado existe en el array de traducciones en caso contrario lo obtiene.<br>
+        * En el caso de que se lo llame sin parametros chequea si existe una langKey en el localStorage<br>
         * para asi obtener la traducción en caso contrario lo obtiene con el defaultLanguage configurado.
         * @param {string} langKey a language key.
         */

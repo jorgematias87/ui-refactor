@@ -1,0 +1,43 @@
+<section class="bg-2do section-inner-lg">
+    <div class="container">
+        <h1 class="title title-3ro title-underline"><strong>{{"developers.title" | translate}}</strong></h1>
+        <h4 class="title title-white">
+            {{"developers.text" | translate}} <a href="mailto:support@metzoo.com" class="link link-3ro">support@metzoo.com </a>
+        </h4>
+        <!-- tabs left -->
+        <div class="tabbable tabs-left clearfix paddingTB">
+            <div class="row">
+                <div class="col-sm-3 no-right">
+                    <ul class="nav nav-tabs">
+                        <li ng-repeat="tab in ('developers.tabs' | translate)" ng-class="tab.active"><a href data-target="#dev{{$index+1}}" data-toggle="tab">{{tab.title}}</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-sm-9 no-left">
+                    <div class="tab-content paddingAll">
+                        <div class="tab-pane" ng-repeat="tab in ('developers.tabs' | translate)" id="dev{{$index+1}}" ng-class="tab.active">
+                            <h4 class="title title-1ro"><strong>{{tab.title | uppercase}}</strong></h4>
+
+                            <div ng-repeat="item in tab.items">
+                                <h5 class="title title-white"><strong>{{item.title}}:</strong></h5>
+
+                                <div class="code-source" ng-if="item.text">
+                                    <p ng-bind-html="item.text"></p>
+                                </div>
+
+                                <div ng-if="item.ejemplos" ng-repeat="ejemplo in item.ejemplos">
+                                    <p ng-bind-html="ejemplo.title"></p>
+                                    <div class="code-source" ng-if="ejemplo.text">
+                                        <p ng-bind-html="ejemplo.text"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- /tabs -->
+    </div>
+</section>

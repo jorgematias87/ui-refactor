@@ -4,9 +4,9 @@
         <div class="row">
             <div class="col-md-6" ng-repeat="items in ('faq.items' | translate)">
 				<div class="text-box" ng-repeat="item in items">
-					<h4><strong>{{item.titulo}}</strong></h4>
-					<p ng-repeat="texto in item.textos">{{texto}}</p>
-					<img class="faq_ico img-responsive img-center" ng-src="images/{{item.imagen}}.png" alt="" width="340" ng-if="item.imagen">
+					<h4><strong>{{item.title}}</strong></h4>
+					<p ng-repeat="text in item.texts">{{text}}</p>
+					<img class="faq_ico img-responsive img-center" ng-src="images/faq/{{item.image}}.png" alt="" width="340" ng-if="item.image">
 				</div>
 			</div>
         </div>

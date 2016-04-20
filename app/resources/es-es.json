@@ -71,208 +71,195 @@
     }
   },
   "signin": {
-    "titulo": "Bienvenido",
+    "title": "Bienvenido",
     "forgotClick": "Hacé click aqui"
   },
   "signup": {
-    "titulo": "Empezá ahora!",
-    "textos": [
+    "title": "Empezá ahora!",
+    "texts": [
       "Probá por",
       "30 días sin cargo",
       "para saber cuál es tu costo verdadero"
         ]
   },
   "faq":{
-    "titulo": "FAQ",
-    "subtitulo": "(Preguntas Frecuentes)",
+    "title": "FAQ",
+    "subtitle": "(Preguntas Frecuentes)",
     "items": [
       [
         {
-          "titulo": "¿Qué es Metzoo?",
-          "textos": [
+          "title": "¿Qué es Metzoo?",
+          "texts": [
             "Es una completa solución cloud para monitorear en tiempo real todas las incidencias que impacten directamente en cualquier actividad: desde servidores, hasta el tránsito de una ciudad. Esta herramienta ofrece de forma muy simple y gráfica todo lo necesario para que puedas visualizar, analizar y generar alertas tempranas de las métricas que te interesen para poder comprender mejor su comportamiento. Con los gráficos lindos y actualizables en tiempo real, tomas mejores decisiones.", 
             "Metzoo está desarrollado por especialistas en sistemas y por eso combina la agilidad, potencia y escalabilidad que ofrece la tecnología cloud, con el poder de las herramientas de análisis de datos de negocios. Nuestra propuesta es que puedas medir, medir y medir. Y que esa tarea sea sencilla, práctica y bella. Que lo puedas hacer en tu oficina, en tu casa o donde quieras."
           ],
-          "imagen": "faq_ico_01"
+          "image": "faq_ico_01"
         },
         {
-          "titulo": "¿Qué cosas puedo medir?",
-          "textos": [
+          "title": "¿Qué cosas puedo medir?",
+          "texts": [
             "Big Data. Todos aquellos eventos on line y off line que tengan alto tráfico es susceptible de medirse. Desde una campaña de marketing, un proceso productivo de pequeña o gran escala, hasta el tránsito de una ciudad o el comportamiento de los usuarios que compran por internet en una plataforma de eCommerce."
-          ],
-          "imagen": ""
+          ]
         },
         {
-          "titulo": "¿Cómo enviar los datos a Metzoo?",
-          "textos": [
+          "title": "¿Cómo enviar los datos a Metzoo?",
+          "texts": [
             "Cuando activas tu servicio, free o Premium, descargas el agente compatible con el servidor donde están almacenados los datos que querés medir con nuestra herramienta. Es muy sencillo de hacerlo, son aplicativos one click installed. Una vez instalado, lo activás y listo, ya empezas a enviar!", 
             "Esos agentes lo podes integrar de 3 formas distintas para obtener los datos. 1) API pública (ver aquí como integrarla a tu sitio) 2) Sensores tipo Arduino, y 3) URLs."
-          ],
-          "imagen": ""
+          ]
         },
         {
-          "titulo": "¿Qué es un flujo de datos?",
-          "textos": [
+          "title": "¿Qué es un flujo de datos?",
+          "texts": [
             "Un flujo de datos es una métrica enviado desde una fuente específica a una frecuencia determinada. Por ejemplo, si nos envias el uso de CPU de un servidor front-end cada diez segundos, eso es un flujo de datos. Nosotros sólo cobramos por los datos escritos en el disco. Por eso, si nos envías datos cada 20 segundos, pero sumados a un flujo de 60 segundos, sólo cobran por estos 60 segundos."
-          ],
-          "imagen": ""
+          ]
         },
         {
-          "titulo": "¿Qué pasa si no estoy enviando los datos a las frecuencias que mostrar?",
-          "textos": [
+          "title": "¿Qué pasa si no estoy enviando los datos a las frecuencias que mostrar?",
+          "texts": [
             "Calculamos el costo basado en la frecuencia que hayas configurado el flujo de datos. Por ejemplo, si estas enviando flujos de datos en resoluciones de 15 segundos, calculamos el costo promediando los dos puntos de precios más cercanos. A partir de resoluciones de 5, el precio es el mismo."
-          ],
-          "imagen": ""
+          ]
         },
         {
-          "titulo": "¿Ofrecen descuentos?",
-          "textos": [
+          "title": "¿Ofrecen descuentos?",
+          "texts": [
             "Si! Tenemos 3 distintas formas de dar bonificaciones: 1) por volumen de datos (ingresa a nuestros planes aquí), 2) por tipo de entidad: si sos una ONG o una entidad educativa; y 3) por pago adelantado del plan que elijas. Ingresa a nuestra lista de planes y lo podrás ver!."
-          ],
-          "imagen": ""
+          ]
         },
         {
-          "titulo": "¿Qué pasa si yo envío muchos datos?",
-          "textos": [
+          "title": "¿Qué pasa si yo envío muchos datos?",
+          "texts": [
             "No hay ningún problema porque no hay límite sobre cantidad de flujos de datos que puedas enviarnos. Para estar más seguro, puedes enviarnos un email a sales@metzoo.com contando tu caso particular de uso y con gusto te enviaremos el mejor plan que se ajuste a tu demanda."
-          ],
-          "imagen": ""
+          ]
         },
         {
-          "titulo": "¿Cuánto tiempo se mantiene mi información?",
-          "textos": [
+          "title": "¿Cuánto tiempo se mantiene mi información?",
+          "texts": [
             "Por un año. Es un período de tiempo razonable para mantener datos de origen. No tiene mucho sentido almacenar datos durante largos períodos de tiempo en la resolución nativa. Son demasiados puntos que hasta pueden llegar a dificultar la visualización actual."
-          ],
-          "imagen": ""
+          ]
         }
       ],
       [
         {
-          "titulo": "¿Ofrecen una versión free?",
-          "textos": [
+          "title": "¿Ofrecen una versión free?",
+          "texts": [
             "Si! Cuando te registras, accedes a una versión free trial por 30 días sin restricciones de servicios. En ese período no te pediremos los datos de tu tarjeta de crédito. Sólo ingresas y ya empiezas a monitorear! Una vez finalizado el período de prueba puedes elegir entre el plan gratuito para Desarrolladores (con limitaciones de funcionalidades) o bien un plan de producción ilimitada. Ingresa aquí para conocer las características de nuestros planes."
-          ],
-          "imagen": ""
+          ]
         },
         {
-          "titulo": "¿Es compatible con Windows, Mac y Linux?",
-          "textos": [
+          "title": "¿Es compatible con Windows, Mac y Linux?",
+          "texts": [
             "Sí!"
-          ],
-          "imagen": ""
+          ]
         },
         {
-          "titulo": "¿Se puede personalizar el escritorio y las plantillas?",
-          "textos": [
+          "title": "¿Se puede personalizar el escritorio y las plantillas?",
+          "texts": [
             "SI. Podrás adaptar fácilmente la visualización de tu escritorio o tus gráficos en función de tus requerimientos y luego podrás reutilizarlo entre tus distintas fuentes de datos, cambiándolo en tiempo real. Podrás seleccionar un conjunto de plantillas predefinidas y combinar las distintas variables de bloques en función de tu criterio. Personalizá TODOS los elementos en tus dashboards. Utilizá nuestro modo couch para los televisores que tengas en tu oficina!"
-          ],
-          "imagen": ""
+          ]
         },
         {
-          "titulo": "¿Qué es el Service Aggregation?",
-          "textos": [
+          "title": "¿Qué es el Service Aggregation?",
+          "texts": [
             "La flexibilidad de un servicio de agregación permite que sea muy fácil combinar varias mediciones enviadas a Metzoo en nueva única y completa medición. Ideal para ambientes efímeros, nuestro nivel de agregación te permitirá administrar fácilmente las métricas continuas para escalar en servicios."
           ],
-          "imagen": "faq_ico_02"
+          "image": "faq_ico_02"
         },
         {
-          "titulo": "¿Para qué sirve establecer correlaciones?",
-          "textos": [
+          "title": "¿Para qué sirve establecer correlaciones?",
+          "texts": [
             "Armar correlaciones entre distintos datos es una herramienta muy poderosa para hacerle frente a las crisis cuando los sistemas arden! Por eso, con Metzoo podrás agrupar un conjunto métricas y guardarlas en un gráfico para estar bien preparados para enfrentar esos “incendios” y para establecer nuevos niveles de dependencia entre tus métricas."
-          ],
-          "imagen": ""
+          ]
         },
         {
-          "titulo": "¿Es Multilenguaje?",
-          "textos": [
+          "title": "¿Es Multilenguaje?",
+          "texts": [
             "SI. No importa cuál sea el lenguaje sobre el que trabajas, Metzoo se integra fácilmente a Ruby, Java, Python,. Net, Ir, Clojure y muchos otros más. Descubre lo fácil que puede ser la integración de Metzoo con sólo unas pocas líneas de código."
-          ],
-          "imagen": ""
+          ]
         },
         {
-          "titulo": "¿Tiene una API pública que me permita integrar mis sistemas?",
-          "textos": [
+          "title": "¿Tiene una API pública que me permita integrar mis sistemas?",
+          "texts": [
             "SI. Tu información es tuya. Por eso basamos nuestro sistema en una API para que no quedes “encerrado” en Metzoo, sino que lo adaptes a tu negocio fácilmente. Vos sos el dueño de tus datos, nosotros sólo te ayudamos a que consigas grandes business insights con ellos. Con nuestra API vos lo haces tuyo y nosotros estaremos felices que sea así."
-          ],
-          "imagen": ""
+          ]
         },
         {
-          "titulo": "Soy una pyme, ¿Me sirve?",
-          "textos": [
+          "title": "Soy una pyme, ¿Me sirve?",
+          "texts": [
             "SI. Todos los negocios tienen instancias que medir y todos los negocios crecerán si pueden tener las estadísticas precisas de su negocio. Por eso, Metzoo ayuda tanto a una pyme como a una gran empresa permitiendo tener una gran escalabilidad. Nuestro piso es la infraestructura y el techo es el negocio…"
           ],
-          "imagen": "faq_ico_03"
+          "image": "faq_ico_03"
         }
       ]
     ]
   },
-  "desarrolladores":{
-    "titulo":"Desarrolladores",
-    "texto": "Para integrar la API te detallamos los requerimientos y los ejemplos de respuesta para cada una de las acciones. Si tienes más consultas, no dejes de escribirnos a",
+  "developers":{
+    "title":"Desarrolladores",
+    "text": "Para integrar la API te detallamos los requerimientos y los ejemplos de respuesta para cada una de las acciones. Si tienes más consultas, no dejes de escribirnos a",
     "tabs": [
       {
-        "titulo": "Registrar un agente",
+        "title": "Registrar un agente",
         "active": "active",
         "items": [
           {
-            "titulo": "Envío de requerimiento",
-            "texto": "curl -i \\<br>-H \"Content-Type: application/json\" \\<br>-H \"User-Agent: Metzoo-Curl-Client\" \\<br>-d '{\"host_name\": \"my-curl-client\", \"customer_key\": \"my-customer-key\"}' \\<br>-X POST http://api.metzoo.com/agents"
+            "title": "Envío de requerimiento",
+            "text": "curl -i \\<br>-H \"Content-Type: application/json\" \\<br>-H \"User-Agent: Metzoo-Curl-Client\" \\<br>-d '{\"host_name\": \"my-curl-client\", \"customer_key\": \"my-customer-key\"}' \\<br>-X POST http://api.metzoo.com/agents"
           },
           {
-            "titulo": "Ejemplo de respuestas",
-            "texto": "Success: <br>Status code: 201 <br>Body: {\"agentKey\": \"yourAgentKey\", \"status\": 201} <br><br>An error happend, status code: <br>500(validation errors) <br>404(invalid customer key) <br>503(db errors) <br>-Empty body"
+            "title": "Ejemplo de respuestas",
+            "text": "Success: <br>Status code: 201 <br>Body: {\"agentKey\": \"yourAgentKey\", \"status\": 201} <br><br>An error happend, status code: <br>500(validation errors) <br>404(invalid customer key) <br>503(db errors) <br>-Empty body"
           }
         ]
       },
       {
-        "titulo": "Registrar una métrica",
+        "title": "Registrar una métrica",
         "active": "",
         "items": [
           {
-            "titulo": "Envío de requerimiento",
-            "texto": "curl -i \\<br>-H \"Content-Type: application/json\" \\<br>-H \"User-Agent: Metzoo-Curl-Client\" \\<br>-H \"Agent-Key: my-agent-key\" \\<br>-d '[\"memory.Free\", \"memory.Used\", \"memory.Total\"]' \\<br>-X POST https://api.metzoo.com/metrics"
+            "title": "Envío de requerimiento",
+            "text": "curl -i \\<br>-H \"Content-Type: application/json\" \\<br>-H \"User-Agent: Metzoo-Curl-Client\" \\<br>-H \"Agent-Key: my-agent-key\" \\<br>-d '[\"memory.Free\", \"memory.Used\", \"memory.Total\"]' \\<br>-X POST https://api.metzoo.com/metrics"
           },
           {
-            "titulo": "Ejemplo de respuestas",
-            "texto": "Success: <br>Status code: 201 <br><br>Errors: <br>400: invalid data. <br>403: invalid agent key. <br>503: db errors (should retry)"
+            "title": "Ejemplo de respuestas",
+            "text": "Success: <br>Status code: 201 <br><br>Errors: <br>400: invalid data. <br>403: invalid agent key. <br>503: db errors (should retry)"
           }
         ]
       },
       {
-        "titulo": "Envío de métrica",
+        "title": "Envío de métrica",
         "active": "",
         "items": [
           {
-            "titulo": "Envío de requerimiento",
-            "texto": "curl -i \\<br>-H \"Content-Type: application/json\" \\<br>-H \"User-Agent: Metzoo-Curl-Client\" \\<br>-H \"Agent-Key: my-agent-key\" \\<br>-d '{\"t\":1414413302, \"memory.Free\":1.94097152e+08, \"memory.Total\":5.1422003e+08, \"memory.Used\":3.2012288e+08}' \\<br>-X POST https://api.metzoo.com/metrics/data"
+            "title": "Envío de requerimiento",
+            "text": "curl -i \\<br>-H \"Content-Type: application/json\" \\<br>-H \"User-Agent: Metzoo-Curl-Client\" \\<br>-H \"Agent-Key: my-agent-key\" \\<br>-d '{\"t\":1414413302, \"memory.Free\":1.94097152e+08, \"memory.Total\":5.1422003e+08, \"memory.Used\":3.2012288e+08}' \\<br>-X POST https://api.metzoo.com/metrics/data"
           },
           {
-            "titulo": "Ejemplo de respuestas",
-            "texto": "Success: <br>Status code: 201: <br><br>Errors: <br>400: error parsing values. <br>403: invalid agent key. <br>503: db error (should retry)"
+            "title": "Ejemplo de respuestas",
+            "text": "Success: <br>Status code: 201: <br><br>Errors: <br>400: error parsing values. <br>403: invalid agent key. <br>503: db error (should retry)"
           }
         ]
       },
       {
-        "titulo": "Actualización de agente",
+        "title": "Actualización de agente",
         "active": "",
         "items": [
           {
-            "titulo": "Envío de requerimiento",
-            "texto": "curl -i \\<br>-H \"Content-Type: application/json\" \\<br>-H \"User-Agent: Metzoo-Curl-Client\" \\<br>-H \"Agent-Key: my-agent-key\" \\<br>https://api.metzoo.com/agents"
+            "title": "Envío de requerimiento",
+            "text": "curl -i \\<br>-H \"Content-Type: application/json\" \\<br>-H \"User-Agent: Metzoo-Curl-Client\" \\<br>-H \"Agent-Key: my-agent-key\" \\<br>https://api.metzoo.com/agents"
           },
           {
-            "titulo": "Ejemplo de respuestas",
+            "title": "Ejemplo de respuestas",
             "ejemplos": [
               {
-                "titulo": "Si el agente no tuvo cambios:",
-                "texto": "{\"key\": \"agentUnchanged\", \"body\": \"\"}"
+                "title": "Si el agente no tuvo cambios:",
+                "text": "{\"key\": \"agentUnchanged\", \"body\": \"\"}"
               },
               {
-                "titulo": "Si el agente tuvo cambios:",
-                "texto": "{\"key\":\"agentUpdate\", \"body\": {\"customer_id\": {\"$oid\": \"53d6a5d7f93165513d000004\"}, \"deleted\": false, \"deleted_on\": {\"$date\":\"0001-01-03T00:00:00.000Z\"}, \"enabled\": true, \"endpoints\": [\"https://api.metzoo.com\"], \"host_name\": \"my-host-name\", \"intencional_disabled\": false, \"key\": \"my-agent-key\", \"polling_interval\": 60, \"type\": \"linux\", \"update_request\": true}}"
+                "title": "Si el agente tuvo cambios:",
+                "text": "{\"key\":\"agentUpdate\", \"body\": {\"customer_id\": {\"$oid\": \"53d6a5d7f93165513d000004\"}, \"deleted\": false, \"deleted_on\": {\"$date\":\"0001-01-03T00:00:00.000Z\"}, \"enabled\": true, \"endpoints\": [\"https://api.metzoo.com\"], \"host_name\": \"my-host-name\", \"intencional_disabled\": false, \"key\": \"my-agent-key\", \"polling_interval\": 60, \"type\": \"linux\", \"update_request\": true}}"
               },
               {
-                "titulo": "Nota: \"key\" es usado para decidir si se debe realizar alguna acción o si el mensaje debe ser descartado."
+                "title": "Nota: \"key\" es usado para decidir si se debe realizar alguna acción o si el mensaje debe ser descartado."
               }
             ]
           }
@@ -281,25 +268,25 @@
     ]
 
   },
-  "precios": {
-    "titulo": "Precios",
-    "subtitulo": "Vos armás tu plan. Las variables para definir el precio son dos: cantidad de flujos de datos enviados para medir (Métricas) y frecuencia de los envíos. Sistema Pay Per Use (PPU)",
-    "textos": [
+  "pricing": {
+    "title": "Precios",
+    "subtitle": "Vos armás tu plan. Las variables para definir el precio son dos: cantidad de flujos de datos enviados para medir (Métricas) y frecuencia de los envíos. Sistema Pay Per Use (PPU)",
+    "texts": [
       "Cuantas más métricas envíes en períodos de tiempo de menor frecuencia, mas bajo es el costo. Por ejemplo: si envías 100 métricas cada 5 minutos el precio será más bajo que si las envías cada 30 segundos. Ingresa aquí para conocer la grilla de valores y elige la que mejor se adapte a tu negocio.",
             [
               "Planes disponibles para grandes volúmenes de datos. Envianos un email con tus requerimientos a",
               "y habrá un plan a tu medida."
             ]
-    ], 
-    "tabla":{
-      "titulos": [
+    ],
+    "table":{
+      "titles": [
         "VALOR MÉTRICA POR MES",
         [
           "RESOLUCIÓN ",
           "(Envio por segundos)"
         ]
       ],
-      "textos": [
+      "texts": [
         [
           "$0.29",
           "5 segundos"

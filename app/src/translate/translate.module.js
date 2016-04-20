@@ -1,7 +1,7 @@
 /**
  * @ngdoc overview
  * @name translate
- * @description < description placeholder >
+ * @description The main module which holds everything together.
  */
 
 (function(){

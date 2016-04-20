@@ -50,6 +50,18 @@
             templateUrl: 'src/landing/agro.html',
             data: constants.cssClass.agro || {}
         })
+        .state('landing.developers', {
+            url: '/developers',
+            title: 'Metzoo - Developers',
+            templateUrl: 'src/landing/developers.html',
+            data: constants.cssClass.default || {}
+        })
+        .state('landing.pricing', {
+            url: '/pricing',
+            title: 'Metzoo - Pricing',
+            templateUrl: 'src/landing/pricing.html',
+            data: constants.cssClass.default || {}
+        })
         .state('landing.faq', {
             url: '/faq',
             title: 'Metzoo - FAQ',
