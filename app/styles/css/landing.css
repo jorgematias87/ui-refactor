@@ -5,19 +5,23 @@
   font-weight: normal;
   font-style: normal;
 }
-html {
-  position: relative;
-  min-height: 100%;
+html,body {
+    height: 100%;
+    padding:0;
+    margin: 0;
 }
 body {
-/* Margin bottom by footer height */
   font-family: 'met_sans', sans-serif !important;
-  margin-bottom: 100px !important;
-  padding-top: 112px;
   color: #fff !important;
 }
 p {
   font-family: 'Open Sans', sans-serif !important;
+}
+.wrap {
+    min-height: 100%;
+}
+.wrap-content {
+    padding-bottom: 100px;
 }
 .custom-page {
   padding-top: 0;
@@ -527,11 +531,12 @@ p {
   margin-bottom: 25px;
 }
 .footer {
-  position: absolute;
-  bottom: 0;
+  position: relative;
+  margin-top: -100px;
   width: 100%;
-/* Set the fixed height of the footer here */
   height: 100px;
+  clear:both;
+  bottom: 0;
 }
 .footer img {
   padding: 31px 0;
